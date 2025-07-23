@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "CHAnalytics",
     platforms: [
-        .iOS(.v13),
+        .iOS(.v14),
         .macOS(.v11),
         .tvOS(.v13),
         .watchOS(.v6)
@@ -18,7 +18,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/Chainless-Dev/CHLogger.git", branch: "main"),
+        .package(url: "https://github.com/Chainless-Dev/CHLogger.git", exact: "1.0.0"),
         .package(url: "https://github.com/firebase/firebase-ios-sdk.git", exact: "11.15.0"),
         .package(url: "https://github.com/amplitude/Amplitude-Swift.git", exact: "1.13.9")
     ],

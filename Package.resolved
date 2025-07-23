@@ -50,8 +50,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Chainless-Dev/CHLogger.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "79b4fd7a1234af2d302b68f4e017e239cb7f11a5"
+        "revision" : "79b4fd7a1234af2d302b68f4e017e239cb7f11a5",
+        "version" : "1.0.0"
       }
     },
     {
